@@ -1,0 +1,90 @@
+.footer-section {
+  background-color: #003366;
+  color: #fff;
+  padding: 4rem 2rem 2rem;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-column h4 {
+  color: #FFD700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #FFD700;
+}
+
+.footer-column.brand .logo {
+  font-size: 1.8rem;
+  color: #FFD700;
+  margin-bottom: 1rem;
+}
+
+.footer-column.brand p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #ddd;
+}
+
+.social-icons a {
+  display: inline-block;
+  color: #FFD700;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.footer-column button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.footer-column button:hover {
+  color: #FFD700;
+}

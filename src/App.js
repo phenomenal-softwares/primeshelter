@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+import HeroSection from './components/HeroSection/HeroSection';
+import FeaturedProperties from './components/FeaturedProperties/FeaturedProperties';
+import About from './components/About/About';
+import CTASection from './components/CTA/CTASection';
+
+import SearchResults from './components/SearchResults/SearchResults';
+import PropertyRequestPage from './pages/RequestPage/RequestPage';
+
+function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <FeaturedProperties />
+      <About />
+      <CTASection />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/search" element={<SearchResults />} />
+        <Route path="/property-request" element={<PropertyRequestPage />} />
+        {/* Add more routes later as needed */}
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
 
