@@ -1,0 +1,46 @@
+.agents-page {
+  padding: 2rem;
+  background-color: #f5f7fa;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.agents-searchbar {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.agents-searchbar input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.agents-searchbar button {
+  padding: 0.75rem 1.5rem;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.agents-searchbar button:hover {
+  background-color: #002244;
+}
+
+.agents-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.agents-main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

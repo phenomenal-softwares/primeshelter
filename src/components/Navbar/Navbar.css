@@ -1,39 +1,52 @@
 .navbar {
+  background-color: #003366;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: #003366; /* Deep Blue */
-  color: white;
-}
-
-.navbar-logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  font-family: 'Segoe UI', sans-serif;
 }
 
 .navbar-logo a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  color: white;
+  color: #FFD700;
+  font-family: 'Cinzel', serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.logo-icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
 }
 
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+  gap: 25px;
 }
 
-.navbar-links li a {
-  text-decoration: none;
+.navbar-links a {
   color: white;
+  text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
-  transition: color 0.3s;
+  position: relative;
+  padding-bottom: 4px;
 }
 
-.navbar-links li a:hover {
-  color: #FFD700; /* Gold Accent */
+.navbar-links a:hover,
+.navbar-links .active {
+  color: #FFD700;
+}
+
+.navbar-links .active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #FFD700;
+  bottom: 0;
+  left: 0;
 }

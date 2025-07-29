@@ -1,0 +1,47 @@
+.cta-card {
+  background: rgba(255, 217, 0, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.cta-card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+.cta-icon {
+  font-size: 2.8rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.cta-card h4 {
+  color: #003366; /* Royal Blue */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-card p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+}
+
+.cta-btn {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #00254d;
+}

@@ -2,7 +2,7 @@ import "./SearchResults.css";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { properties, formatPrice } from "../../data/properties";
-import SearchBar from "../SearchBar/SearchBar";
+import SearchBar from "../../components/SearchBar/SearchBar";
 import {
   FaBath,
   FaBed,
