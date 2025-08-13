@@ -104,6 +104,10 @@
 
 .property-badge {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
   top: 10px;
   left: 10px;
   background-color: #ffd700;
@@ -113,6 +117,12 @@
   border-radius: 4px;
   font-size: 0.85rem;
 }
+
+.icon {
+  font-size: 0.85rem;
+  color: #ffd700;
+}
+
 
 /* Property Details */
 .property-details {

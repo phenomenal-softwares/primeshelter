@@ -21,9 +21,13 @@ const properties = [
     lastUpdated: '20 days ago',
     marketer: 'Prime Estates',
     photos: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
-      'https://images.unsplash.com/photo-1598928506311-7087d8e01f61',
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914'
+      '/images/properties/house/house-1.jpg',
+      '/images/properties/house/house-1-1.jpg',
+      '/images/properties/house/house-1-2.jpg',
+      '/images/properties/house/house-1-3.jpg',
+      '/images/properties/house/house-1-4.jpg',
+      '/images/properties/bathroom/bathroom-1.jpg',
+      '/images/properties/toilet/toilet-1.jpg',
     ]
   },
   {
@@ -48,8 +52,13 @@ const properties = [
     lastUpdated: '12 days ago',
     marketer: 'John Doe Estates',
     photos: [
-      'https://images.unsplash.com/photo-1741764014072-68953e93cd48?w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914'
+      '/images/properties/house/house-2.jpg',
+      '/images/properties/house/house-2-1.jpg',
+      '/images/properties/house/house-2-2.jpg',
+      '/images/properties/house/house-2-3.jpg',
+      '/images/properties/house/house-2-4.jpg',
+      '/images/properties/bathroom/bathroom-2.jpg',
+      '/images/properties/toilet/toilet-2.jpg',
     ]
   },
   {
@@ -74,9 +83,13 @@ const properties = [
     lastUpdated: '24 days ago',
     marketer: 'Jane Smith Realty',
     photos: [
-      'https://images.unsplash.com/photo-1600585152930-8f5b2c0b7a3f',
-      'https://images.unsplash.com/photo-1599423300746-b62533397364',
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914'
+      '/images/properties/house/house-3.jpg',
+      '/images/properties/house/house-3-1.jpg',
+      '/images/properties/house/house-3-2.jpg',
+      '/images/properties/house/house-3-3.jpg',
+      '/images/properties/house/house-3-4.jpg',
+      '/images/properties/bathroom/bathroom-3.jpg',
+      '/images/properties/toilet/toilet-3.jpg',
     ]
   },
   {
@@ -101,8 +114,7 @@ const properties = [
     lastUpdated: '21 days ago',
     marketer: 'Estate Masters Ltd',
     photos: [
-      'https://images.unsplash.com/photo-1568605114967-8130f3a36994',
-      'https://images.unsplash.com/photo-1612832021034-52f3b2ebaf58'
+      'images/properties/land/land-1.jpg'
     ]
   },
   {
@@ -127,8 +139,7 @@ const properties = [
     lastUpdated: '22 days ago',
     marketer: 'Estate Masters Ltd',
     photos: [
-      'https://images.unsplash.com/photo-1504457046785-48e67d33f3c7',
-      'https://images.unsplash.com/photo-1586190848861-99aa4a171e90'
+      'images/properties/land/land-2.jpg'
     ]
   },
   {
@@ -153,8 +164,13 @@ const properties = [
     lastUpdated: '18 days ago',
     marketer: 'Luxury Homes Abuja',
     photos: [
-      'https://images.unsplash.com/photo-1600585152930-8f5b2c0b7a3f',
-      'https://images.unsplash.com/photo-1613977257363-707ba934822a'
+      '/images/properties/house/house-4.jpg',
+      '/images/properties/house/house-4-1.jpg',
+      '/images/properties/house/house-4-2.jpg',
+      '/images/properties/house/house-4-3.jpg',
+      '/images/properties/house/house-4-4.jpg',
+      '/images/properties/bathroom/bathroom-4.jpg',
+      '/images/properties/toilet/toilet-4.jpg',
     ]
   }
 ];

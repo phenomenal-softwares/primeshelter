@@ -1,6 +1,6 @@
 .hero-section {
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c'); /* Replace later with local asset */
+  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
   background-size: cover;
   background-position: center;
   min-height: 90vh;
@@ -84,15 +84,16 @@
 
 .search-input button {
   padding: 10px 20px;
-  background: #FFD700;
+  background: #003366;
   border: none;
   border-radius: 5px;
+  font-size: 18px;
   font-weight: bold;
-  color: #003366;
+  color: #ffd700;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .search-input button:hover {
-  background: #e6c200;
+  background: #024e9a;
 }

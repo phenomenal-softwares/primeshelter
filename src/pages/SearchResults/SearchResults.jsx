@@ -6,6 +6,7 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import {
   FaBath,
   FaBed,
+  FaTag,
   FaToilet,
   FaRulerCombined,
   FaEnvelope,
@@ -126,7 +127,7 @@ const SearchResults = () => {
                 >
                   <img src={property.photos[0]} alt={property.title} />
                   <div className="property-badge">
-                    {property.advert.replace("-", " ")}
+                    <FaTag className="icon" /> {property.advert.replace("-", " ")}
                   </div>
                 </div>
 
