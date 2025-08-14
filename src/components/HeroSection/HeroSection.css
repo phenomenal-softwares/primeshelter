@@ -1,6 +1,6 @@
 .hero-section {
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+  background-image: url('/public/images/hero-bg.webp');
   background-size: cover;
   background-position: center;
   min-height: 90vh;
@@ -83,6 +83,10 @@
 }
 
 .search-input button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 10px 20px;
   background: #003366;
   border: none;
@@ -96,4 +100,85 @@
 
 .search-input button:hover {
   background: #024e9a;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 75vh;
+    padding: 0 15px;
+  }
+
+  .hero-overlay {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .search-box {
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .search-tabs {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search-tabs button {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+
+  .search-input {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .search-input input {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .search-input button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .search-tabs button {
+    font-size: 0.85rem;
+    padding: 7px 14px;
+  }
+
+  .search-input button {
+    font-size: 0.95rem;
+  }
 }

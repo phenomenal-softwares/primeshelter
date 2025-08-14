@@ -373,3 +373,70 @@
   border-radius: 4px;
   text-transform: capitalize;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .results-layout {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .results-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .results-toolbar {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .results-layout {
+    flex-direction: column;
+  }
+
+  .results-sidebar {
+    order: 1; /* Move sidebar above results on mobile */
+  }
+
+  .sticky-cta {
+    position: static;
+    gap: 1rem;
+  }
+
+  .cta-card {
+    padding: 1rem;
+  }
+
+  .property-price-date {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .sort-select {
+    width: 100%;
+  }
+
+  .results-grid {
+    gap: 1.2rem;
+  }
+
+  .marketer-buttons .btn {
+    width: 100%;
+  }
+}

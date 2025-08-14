@@ -40,7 +40,7 @@ const FeaturedProperties = () => {
             >
               <img src={property.photos[0]} alt={property.title} />
               <span className="property-tag">
-                <FaTag className="icon" /> {property.advert.replace("-", " ")}
+                <FaTag /> {property.advert.replace("-", " ")}
               </span>
             </div>
 

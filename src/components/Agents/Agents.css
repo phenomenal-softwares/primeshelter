@@ -68,3 +68,47 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .agent-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .agent-photo {
+    margin: 0 auto;
+  }
+
+  .agent-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .agent-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .agents-sidebar {
+    position: static;
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .agent-company {
+    font-size: 1rem;
+  }
+
+  .agent-actions button {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+  }
+}

@@ -63,6 +63,16 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; {currentYear} PrimeShelter. All rights reserved.</p>
+        <p>
+          A product of{' '}
+          <a
+            href="https://phenomenalproductions.com.ng"
+            target="_blank"
+            rel="noreferrer noreferrer"
+          >
+            Phenomenal Productions
+          </a>
+        </p>
       </div>
     </footer>
   );

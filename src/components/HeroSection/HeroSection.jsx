@@ -80,7 +80,7 @@ function HeroSection() {
                 onKeyDown={handleKeyPress}
               />
               <button onClick={handleSearch}>
-                <FaMagnifyingGlass />
+                <FaMagnifyingGlass /> Search
               </button>
             </div>
           </div>

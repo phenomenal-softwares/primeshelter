@@ -111,9 +111,7 @@ const PropertyRequestPage = () => {
 
   return (
     <div className="request-page">
-      <div className="request-header">
-        <h1 className="request-title">POST A PROPERTY REQUEST</h1>
-      </div>
+      <h1 className="request-title">POST A PROPERTY REQUEST</h1>
 
       <div className="info-box">
         <p>

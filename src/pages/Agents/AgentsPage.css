@@ -44,3 +44,40 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .agents-searchbar {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .agents-searchbar input,
+  .agents-searchbar button {
+    width: 100%;
+  }
+
+  .agents-layout {
+    flex-direction: column;
+  }
+
+  .agents-main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .agents-page {
+    padding: 1rem;
+  }
+
+  .agents-searchbar input {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .agents-searchbar button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}

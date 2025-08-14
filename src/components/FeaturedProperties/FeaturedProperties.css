@@ -132,3 +132,95 @@
   font-size: 0.85rem;
   color: #003366;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .featured-section {
+    padding: 40px 15px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+
+  .property-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .property-card {
+    border-radius: 10px;
+  }
+
+  .image-side {
+    height: 180px;
+  }
+
+  .property-tag {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  .info-side {
+    padding: 15px;
+  }
+
+  .property-title {
+    font-size: 0.95rem;
+  }
+
+  .property-desc {
+    font-size: 0.85rem;
+  }
+
+  .location {
+    font-size: 0.8rem;
+  }
+
+  .price {
+    font-size: 1.3rem;
+  }
+
+  .features {
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+  }
+
+  .feature-icon {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .image-side {
+    height: 150px;
+  }
+
+  .property-title {
+    font-size: 0.9rem;
+  }
+
+  .property-desc {
+    font-size: 0.8rem;
+  }
+
+  .location {
+    font-size: 0.75rem;
+  }
+
+  .price {
+    font-size: 1.2rem;
+  }
+
+  .features {
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+}

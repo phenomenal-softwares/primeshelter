@@ -88,3 +88,16 @@
 .footer-column button:hover {
   color: #FFD700;
 }
+
+.footer-bottom p {
+  margin: 10px 0;
+}
+
+.footer-bottom a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}

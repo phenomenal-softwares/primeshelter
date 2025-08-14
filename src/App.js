@@ -36,17 +36,16 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/search" element={<SearchResults />} />
-        <Route path="/property-request" element={<PropertyRequestPage />} />
-        <Route path="/agents" element={<AgentsPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/signin" element={<SignInPage />} />
-        {/* Add more routes later as needed */}
-      </Routes>
-
+      <main className="page-content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/search" element={<SearchResults />} />
+          <Route path="/property-request" element={<PropertyRequestPage />} />
+          <Route path="/agents" element={<AgentsPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/signin" element={<SignInPage />} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   );
