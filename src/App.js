@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 import HeroSection from "./components/HeroSection/HeroSection";
 import FeaturedProperties from "./components/FeaturedProperties/FeaturedProperties";
@@ -46,6 +47,7 @@ function App() {
           <Route path="/signin" element={<SignInPage />} />
         </Routes>
       </main>
+      <ScrollToTop />
       <Footer />
     </BrowserRouter>
   );
